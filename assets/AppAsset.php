@@ -21,7 +21,6 @@ class AppAsset extends AssetBundle
         'css/site.css',
     ];
     public $js = [
-        'static/angular/angular.js',
         'static/angular/angular.min.js',
     ];
     public $depends = [
