@@ -61,33 +61,4 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
-    /**
-     * Displays step2 page.
-     *
-     * @return string
-     */
-    public function actionStep2()
-    {
-        return $this->render('step2');
-    }
-
-    /**
-     * Displays step3 page.
-     *
-     * @return string
-     */
-    public function actionStep3()
-    {
-        return $this->render('step3');
-    }
-
-    /**
-     * Displays step4 page.
-     *
-     * @return string
-     */
-    public function actionStep4()
-    {
-        return $this->render('step4');
-    }
 }

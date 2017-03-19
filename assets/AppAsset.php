@@ -22,6 +22,8 @@ class AppAsset extends AssetBundle
     ];
     public $js = [
         'static/angular/angular.min.js',
+        'static/angular/pagination.js',
+
     ];
     public $depends = [
         'yii\web\YiiAsset',
