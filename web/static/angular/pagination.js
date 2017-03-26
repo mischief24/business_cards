@@ -7,6 +7,7 @@ PaginationController.$injec = ['$scope', '$http'];
 function PaginationController($scope, $http) {
 
     $scope.currentPage = 1;
+    $scope.bc = "bc1.png";
 
     $scope.NextPage = function () {
         $scope.currentPage++;
@@ -17,5 +18,9 @@ function PaginationController($scope, $http) {
 
     $scope.BackPage = function () {
         $scope.currentPage--;
+    };
+
+    $scope.SelectDesign = function (a){
+        $scope.bc = a ;
     }
 }

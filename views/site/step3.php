@@ -16,7 +16,7 @@
         </form>
     </div>
     <div class="col-md-7 preview-card">
-        <img src="../web/static/img/example.png"/>
+        <img src="../web/static/img/{{bc}}"/>
     </div>
 </section>
 

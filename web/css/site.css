@@ -221,3 +221,24 @@ nav .container {
     width: 70px;
     display: inline;
 }
+
+.bc-patterns > input[type=radio] {
+    display: none;
+}
+
+.bc-patterns > input[type=radio] + label {
+    background-size: 200px;
+    width: 200px;
+    height: 110px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+}
+
+.bc-patterns > input[type=radio]:checked + label {
+    background-size: 200px;
+    width: 200px;
+    height: 110px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+    border: 1px solid red;
+}
